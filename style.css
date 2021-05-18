@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+li,ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    outline: none;
+}
+video{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+}
+iframe{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
+body{
+    font-family:'Lato', sans-serif;
+    color: #333;
+    font-size: 1.2 rem;
+    line-height: 1.6 em;
+    margin: 0;
+    width: 100%;
+    text-rendering: optimizeSpeed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+h2{
+    font-size: 2rem;
+    line-height: 1.6em;
+    color: #002266;
+    text-align: center;
+}
+p{
+    margin-bottom: 1.6em;
+    text-align: justify;
+}
+section{
+    margin-top: 25px;
+}
+.container-total{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.container
+{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    left: 0;
+}
+
+.header{
+     background-color: rgb(0, 34, 102);
+     color: whitesmoke;
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 130px;
+     overflow: hidden;
+     z-index: 1;
+}
+.header a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+    font-size: 1.3rem;
+}
+.header a img{
+    padding-right: 0px;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    padding-left: 0px;
+    width: 100%;
+    height: 130px;
+}
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    .navegador ul li{
+        display: inline-block;
+        font-size: 18px;
+    }
+        .navegador ul li a{
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s linear;
+            border-radius: 8px;
+        }
+            .navegador ul li a:hover{
+                background-color: #ccc;
+                color: rgb(51, 51, 51);
+            }
+.logoavion{
+    left: 0;
+    padding-left: 0;
+}
+.logoavion img{
+    margin-top: 0px;
+    height: 324px;
+    width: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: 0;
+}
+.main{
+    padding-top: 8.5rem;
+    padding-bottom: 100px;
+}
+footer{
+    display: block;
+    width: 100%;
+    float: left;
+    box-sizing:border-box;
+    clear: both;
+}
+.footer{
+    background-color: #f0f0f0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer__contenido{
+    display: flex;
+}
+.limit{
+    width: 100%;
+    max-width: 1120px;
+    padding: 0 15px;
+    margin: auto;
+    position: relative;
+}
+.footer_bloque .m_enlaces{  
+        flex: 0 1 220px;
+        padding-right: 10px;
+}
+.footer_bloque {
+    flex: 1;
+    text-align: left;
+}
+.footer_titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.175rem;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer_lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 46px);
+}
+.footer_lista_enlace{
+    color: rgba(0,0,0,.5);
+    font-size: 1.25rem;
+}
+.footer_bloque .m_botones{  
+    flex: 0 1 220px;
+    padding-right: 10px;
+}
+.footer_wtsp{
+    width: 235px;
+    padding: 0;
+}
+.footer_wtsp img{
+    width: 100%;
+    border-radius: 30px;
+    height: 68px;
+    border: 0;
+    object-fit: cover;
+}
+.boton.m--morado {
+    background-color: #0070ba;
+}
+.boton.m--235 {
+    width: 235px;
+    padding: 0;
+}
+.boton.m--mediano {
+    min-height: 40px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.boton {
+    display: inline-flex;
+    font-family: 'ClanOffc-Medium';
+    text-align: center;
+    padding: 0 55px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: background-color ease .25s;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.footer_bloque .m_redes{  
+    flex: 0 1 320px;
+}
+.footer_redes{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo{
+    width: 58px;
+    height: 55px;
+    border-radius: 30%;
+    color: #fff;
+    transition: all ease .25s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_logo img{
+    width: 100%;
+    height: 55px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.grilla-imagenes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.grilla-imagenes article{
+    margin: 0 9px 20px;
+    width: 255px;
+}
+.card-poster{
+    width: 100%;
+    height: 360px;
+    background-color: #bbb;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #bbb center center/cover;
+    overflow:hidden;
+    box-shadow: 1px 10px 15px rgba(0,0,0,.5);
+    align-items: center;
+    cursor:pointer
+}
+.card-poster .card-poster-container{
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-poster .card-poster-container .card-poster-imagen{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    transition: all 0.7s ease-out;
+}
+.card-poster .card-poster-container .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 0.7s ease-out;
+    object-fit: cover;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    color: white;
+}
+.card-poster .card-poster-container .capa a:visited{
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    color: white;
+}
+
+.card-poster .card-poster-container:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.7s ease-out;
+    color: white;
+}
+
+.card-poster .card-poster-container:hover > .capa h3{
+    margin-top: 150px;
+    margin-bottom: 55px;
+    font-size: 1.6em;
+    transition: all 0.7s ease-out;
+    color: white;
+}
+
+.card-poster .card-poster-container:hover > .card-poster-imagen{
+    transform: scale(1.3);
+    transition: all 0.7s ease-out;
+}
+
+.footer_bloque,
+.footer{
+    text-align: center;
+}
+

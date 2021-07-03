@@ -78,12 +78,10 @@ section{
     padding-right: 10px;
     font-size: 1.3rem;
 }
-/* .header a img{
-    padding-right: 0px;
-} */
+
 .logo-nav-container{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     left: 0;
     padding-left: 0px;

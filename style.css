@@ -98,13 +98,13 @@ section{
         display: inline-block;
         font-size: 18px;
     }
-        .navegador ul li a{
+        .nav-menu-link{
             display: block;
             padding: 0.5rem 1rem;
             transition: all 0.3s linear;
             border-radius: 8px;
         }
-            .navegador ul li a:hover{
+            .nav-menu-link:hover{
                 background-color: #ccc;
                 color: rgb(51, 51, 51);
             } */

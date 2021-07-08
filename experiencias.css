@@ -26,7 +26,7 @@
     width: 100%;
     border-radius: 6px;
     overflow: hidden;
-    margin-top: 1430px;
+    margin-top: 5px;
     box-shadow: 0 0 25px rgba(8, 170, 245, 0.5);
     height: 600px;
 }
@@ -50,7 +50,6 @@
     flex-grow: 0;
     width: 100%;
     max-width: 100%;
-    
 }
 .item-slide img{
     width: 100%;
@@ -172,17 +171,13 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 
 
-html, body{
-    margin: 0;
-    padding: 0;
-}
 
-/* body{
+body{
     width: 100%;
     height: 100%;
     font-family: sans-serif;
     line-height: 1.6;
-} */
+} 
 
 .title{
     text-align: center;

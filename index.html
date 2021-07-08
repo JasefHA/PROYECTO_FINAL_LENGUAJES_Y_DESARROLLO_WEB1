@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a038cad9ab.js" crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
 </head>
 <link rel="icon" 
       type="image/png" 
@@ -19,18 +20,19 @@
     <header class="header">
         <div class="container logo-nav-container">
             <a href="index.html" class="logoavion"><img src="/assets/logo-nav3.png" alt="LOGO"></a>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
             <nav class="navegador">
-                <button class="toggle">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <ul class="nav-menu">
-                <li><a class ="nav-menu-link" href="../Ofertas.html">Ofertas</a></li>
-                <li><a class ="nav-menu-link" href="../destinos.html">Destinos</a></li>
-                <li><a class ="nav-menu-link" href="../Experiencias.html">Experiencias</a></li>
-                <li><a class ="nav-menu-link" href="../blog_viajero.html">Blog Viajero</a></li>
-                <li><a class ="nav-menu-link" href="../Suscribete.html">Suscribete</a></li>
+                <ul class="nav-menu nav-menu_visible">
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Ofertas.html">Ofertas</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../destinos.html">Destinos</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Experiencias.html">Experiencias</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../blog_viajero.html">Blog Viajero</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Suscribete.html">Suscribete</a></li>
                 </ul>
             </nav>
+            
         </div>
     </header>
     <main class="main">

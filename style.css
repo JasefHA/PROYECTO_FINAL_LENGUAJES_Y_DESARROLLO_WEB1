@@ -395,6 +395,7 @@ footer{
 
     .nav-menu li{
         line-height: 40px;
+        font-size: 16px;
     }
 
     .nav-menu-link:hover,

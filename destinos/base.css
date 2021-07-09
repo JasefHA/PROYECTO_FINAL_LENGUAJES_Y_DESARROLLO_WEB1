@@ -26,7 +26,7 @@
         
 }
     .bloque2{
-        background-color: rgba(0,0,0,.6);
+        background-color: rgb(232, 232, 232);
         align-items: center;
         width: 100%;
         height: auto;
@@ -48,7 +48,7 @@
     .title{
     text-align: center;
     font-size: 40px;
-    color: white;
+    color: rgb(72, 70, 70);
     margin-top: 100px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
@@ -96,6 +96,7 @@
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300;
+    color:black;
 }
 
 .container-platos .card a {
@@ -152,4 +153,40 @@
         background-image: url(../assets/img-destinos/ayacucho/ayacucho4.jpg);
         background-size: cover;
     }
+}
+.bloque2dark{
+    background-color: rgb(32, 32, 44);
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 10rem;
+    background-size: cover;
+}
+.container-platos .card p.dark{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.capa{
+    height: auto;
+    width: auto;
+    background-color: rgb(112, 169, 169);
+    float: right;
+    display: flex;
 }

@@ -42,7 +42,10 @@
                     
             </div>
         </main>
-        <section class="bloque2">
+        <section class="bloque2" id="bloque2">
+            <div class="capa">
+                    <button id="bdark">Modo Oscuro</button>
+            </div>
             <h1 class="title">NUESTROS PLATOS BANDERA </h1>
             <div class="container-platos">
                 
@@ -67,6 +70,13 @@
                     <a href="#">Leer más</a>
                 </div>
             </section>
+            <script>
+                const bdark = document.querySelector('#bdark');
+                const doc = document.querySelector('#bloque2');
+                bdark.addEventListener('click', e=>{
+                    doc.classList.toggle('bloque2dark')
+                });
+            </script>
         <footer class="footer">
             <div class="limit footer__contenido">
     

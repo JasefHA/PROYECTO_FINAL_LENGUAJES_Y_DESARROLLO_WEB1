@@ -32,14 +32,16 @@
     background-size: cover;
     background-color: #6699;
 }
-.body-caral{
+
+.main-caral{
     background-image: url("https://i.ytimg.com/vi/GaiE507vsOs/maxresdefault.jpg");
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-attachment:scroll;
     background-size: cover;
     background-color: #6699;
     align-items: center;
+    margin: 130px auto;
 }
 .body-titicaca{
     background-image: url("https://www.peru.travel/Contenido/Experiencia/Imagen/es/44/1.2/Recorrido%20Puno%20Lago%20Titicaca.jpg");
@@ -148,20 +150,20 @@ h2{text-align: center;}
 .bloque1{
     background-color: rgba(0,0,0,.3);
     align-items: center;
-    max-width: 860px;
+    max-width: 1000px;
 	height: auto;
-	margin: 5% auto;
-	padding-bottom: 1rem;
 	border-radius: 10px;
     background-size: cover;
+    margin: 0px auto;
+    padding-top: 10px;
 }
 .parrafo{
     max-width: 1000px;
     text-align: center;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 22px;
     opacity: 1;
     text-shadow: -1px 0 rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
 }

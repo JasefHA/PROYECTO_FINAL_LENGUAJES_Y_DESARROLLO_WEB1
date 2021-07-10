@@ -245,6 +245,32 @@
   padding: 3px 0 0 0;
   font-weight: normal;
   color: #264480;
+}
+
+.active .icon{
+    background:url(assets/img-blog/toggle-bg.png) no-repeat 8px -25px #fff;
+}
+
+.active{
+  background-color:#3378c7;
+  color: #fff;
+}
+.active h5{
+  color:#fff;
+  transition: all .5s ease-in;
+}
+
+.panel{
+  padding: 0 15px;
+  border-left: 1px solid #2b6ebb;
+  margin-left: 25px;
+  font-size: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .5s ease-in;
+}
+
+
 body.dark .post{
   box-shadow: 0 1px 6px 1px rgba(255, 255, 255, 0.493);
   background: rgb(36, 38, 43);

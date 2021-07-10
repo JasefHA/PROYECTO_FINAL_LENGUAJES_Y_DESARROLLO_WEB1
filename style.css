@@ -35,6 +35,7 @@ body{
     transition: 0.3s ease all;
 }
 h2{
+    margin-bottom: 15px;
     font-size: 2rem;
     line-height: 1.6em;
     color: #002266;
@@ -46,7 +47,8 @@ p{
     font-size: 18px;
 }
 section{
-    margin-top: 25px;
+    margin-top: 50px;
+    padding-top: 45px;
 }
 .container-total{
     width: 100%;
@@ -443,4 +445,10 @@ body.dark h2{
 }
 body.dark p{
     color: rgba(245, 245, 245, 0.911);
+}
+body.dark video{
+    box-shadow: 0 0 10px rgba(204, 204, 204);
+}
+body.dark .card-poster{
+    box-shadow: 1px 05px 15px rgba(170, 170, 170, 0.5);
 }

@@ -1,4 +1,6 @@
-
+a{
+    color: whitesmoke;
+}
 
 .img-slide{
     max-width: 100%;
@@ -170,7 +172,7 @@ input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
     text-align: center;
     font-size: 40px;
     color: #6a6a6a;
-    margin-top: 100px;
+    margin: 30px auto;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }

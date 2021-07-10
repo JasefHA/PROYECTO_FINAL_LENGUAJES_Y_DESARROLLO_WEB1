@@ -1,19 +1,43 @@
 
     .bloque1{
-    background-color: rgba(0,0,0,.6);
+    background-color:transparent;
     align-items: center;
-    max-width: 900px;
+    max-width: 500px;
     height: auto;
     margin: auto;
     padding-bottom: 1rem;
     border-radius: 20px;
-    background-size: cover;    
+    background-size: cover;   
+    
+}
+.map{
+    width: 50%;
+    
+}
+.bloque3{
+    background-color:rgb(234, 247, 234);
+    width: 100%;
+    margin-top: 350px;
+    height: auto;
+    margin: auto;
+    background-size: cover;
+    padding-bottom: auto;
+}
+.contenedor2{
+    width:100%;
+    
+    align-items: center;
+    max-width: 1200px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin: auto;
 }
     .cabeza{
-    margin-top: 350px;
+    margin-top: 0px;
     font-size: 2.5rem;
     text-align: center;
-    color: white;
+    color: black;
     
 }
     .parrafo{
@@ -21,12 +45,12 @@
         text-align: center;
         margin: auto;
         margin-top: 20px;
-        color: white;
+        color: black;
         font-size: 1.5rem;
         
 }
     .bloque2{
-        background-color: rgb(232, 232, 232);
+        background-color: transparent;
         align-items: center;
         width: 100%;
         height: auto;
@@ -117,6 +141,556 @@
     padding-top: 0rem;
     padding-bottom: 1000px;
 }
+.banerlima{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/lima/lima.jpg);
+    animation: bannerlima 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banertumbes{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/tumbes/tumbes.jpg);
+    animation: bannertumbes 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banerica{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/ica/ica.jpg);
+    animation: bannerica 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banerarequipa{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/arequipa/arequipa.jpg);
+    animation: bannerarequipa 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banercajamarca{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/cajamarca/cajamarca.jpg);
+    animation: bannercajamarca 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banercusco{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/cusco/cusco.jpg);
+    animation: bannercusco 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banerhuancavelica{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/huancavelica/huancavelica.jpg);
+    animation: bannerhuancavelica 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.baneramazonas{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/amazonas/amazonas.jpg);
+    animation: banneramazonas 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banerucayali{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/ucayali/ucayali.jpg);
+    animation: bannerucayali 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banertarapoto{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/lima/lima.jpg);
+    animation: bannertarapoto 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+.banerloreto{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/lima/lima.jpg);
+    animation: bannerloreto 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+@keyframes bannerloreto{
+    0%{
+        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannertarapoto{
+    0%{
+        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannerucayali{
+    0%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/ucayali/ucayali4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes banneramazonas{
+    0%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/amazonas/amazonas4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannerhuancavelica{
+    0%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/huancavelica/huancavelica4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannercusco{
+    0%{
+        background-image: url(../assets/img-destinos/cusco/cusco.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/cusco/cusco.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/cusco/cusco2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/cusco/cusco2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/cusco/cusco3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/cusco/cusco3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/cusco/cusco4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/cusco/cusco4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannercajamarca{
+    0%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/cajamarca/cajamarca4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannerarequipa{
+    0%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/arequipa/arequipa4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannerica{
+    0%{
+        background-image: url(../assets/img-destinos/ica/ica.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/ica/ica.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/ica/ica2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/ica/ica2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/ica/ica3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/ica/ica3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/ica/ica4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/ica/ica4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannertumbes{
+    0%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/tumbes/tumbes4.jpg);
+        background-size: cover;
+    }
+}
+@keyframes bannerlima{
+    0%{
+        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-size: cover;
+    }
+}
 @keyframes banner{
     0%{
         background-image: url(../assets/img-destinos/ayacucho/ayacucho.jpg);
@@ -154,14 +728,36 @@
         background-size: cover;
     }
 }
-.bloque2dark{
-    background-color: rgb(32, 32, 44);
+.bloque3dark{
+    background-color: rgb(47, 47, 47);
     align-items: center;
     width: 100%;
     height: auto;
     margin: auto;
     padding-bottom: 10rem;
     background-size: cover;
+}
+.titledark{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.cabezadark{
+    margin-top: 0px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+.parrafodark{
+    max-width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        color: white;
+        font-size: 1.5rem;
 }
 .container-platos .card p.dark{
     padding: 0 1rem;

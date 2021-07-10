@@ -6,68 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazonas</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../destinos/loreto.css">
+    <link rel="stylesheet" href="../destinos/base.css">
+    <script defer src="../index.js"></script>
 </head>
 <link rel="icon" 
       type="image/png" 
       href="/assets/favicon-avion.png">
-<body>
-    <header class="header">
-        <div class="container logo-nav-container">
-            <a href="../index.html" class="logoavion"><img src="/assets/logo-nav.png" alt="LOGO"></a>
-            <nav class="navegador">
+      <body>
+        
+        <header class="header">
+            <div class="container logo-nav-container">
+                <a href="../index.html" class="logoavion"><img src="/assets/logo-nav3.png" alt="LOGO"></a>
+                <nav class="navegador">
+                    <ul class="nav-menu">
+                    <li><a class ="nav-menu-link nav-menu-link_active" href="../Ofertas.html">Ofertas</a></li>
+                    <li><a class ="nav-menu-link nav-menu-link_active" href="../destinos.html">Destinos</a></li>
+                    <li><a class ="nav-menu-link nav-menu-link_active" href="../Experiencias.html">Experiencias</a></li>
+                    <li><a class ="nav-menu-link nav-menu-link_active" href="../blog_viajero.html">Blog Viajero</a></li>
+                    <li><a class ="nav-menu-link nav-menu-link_active" href="../Suscribete.html">Suscrísbete</a></li>
+                    </ul>
+                </nav>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </header>
+        <main class="banerloreto">
+            <div class="container-baner">
+                    
+            </div>
+        </main>
+        <section class="bloque3" id="bloque3">
+            <div class="capa">
+                <button id="bdark">Modo Oscuro</button>
+        </div>
+        <section class="contenedor2">
+            <section class="bloque1">   
+                <h1 class="cabeza" id="cabeza">Ayacucho</h1>
+                
+                    <p class="parrafo" id="parrafo">Este destino combina paisajes naturales y sitios históricos. Gracias al documento internacional que certifica la seguridad e higiene ante el coronavirus, se reconoció a tres atractivos bioseguros, entre los que destacan las piscinas naturales de Millpu. En este lugar, ubicado a cuatro horas desde la ciudad de Huamanga, los turistas podrán apreciar aguas turquesas y sacar las mejores fotografías..</p>
+               
+                </section>
+                <section class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62161.02405147989!2d-74.24732369333404!3d-13.158362827700202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d88f5b2bee9%3A0xe9b3cb843a70a16e!2sAyacucho!5e0!3m2!1ses-419!2spe!4v1625920220906!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+        </section>
+        
+        
+        <section class="bloque2" id="bloque2">
+            <h1 class="title" id="title">NUESTROS PLATOS BANDERA </h1>
+            <div class="container-platos">
+                
+                <div class="card">
+                    <img src="/assets/tarjetas/comida-aji-de-gallina.jpg">
+                    <h4>Aji de gallina</h4>
+                    <p>Este ají de gallina es una receta tradicional peruana y queda deliciosa. Consiste en una crema espesa y con un toque picante hecha con ají amarillo.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                
+                <div class="card">
+                    <img src="/assets/tarjetas/comida-ceviche.jpg">
+                    <h4>Ceviche</h4>
+                    <p>El ceviche es un plato típico de la gastronomía peruana y ha tenido tanto éxito que sus sabores se han extendido a otros países latinoamericanos. </p>
+                    <a href="#">Leer más</a>
+                </div>
+                
+                <div class="card">
+                    <img src="/assets/tarjetas/comida-pollo-a-la-brasa.jpg">
+                    <h4>Pollo a la brasa</h4>
+                    <p>Es el plato más consumido del Perú. Su jugoso sabor y su costo accesible son las variables que explican su éxito entre los comensales. </p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </section>
+            <script>
+                const bdark = document.querySelector('#bdark');
+                const doc = document.querySelector('#bloque3');
+                const tit = document.querySelector('#title');
+                const cab = document.querySelector('#cabeza');
+                const paf = document.querySelector('#parrafo')
+                bdark.addEventListener('click', e=>{
+                    doc.classList.toggle('bloque3dark')
+                    tit.classList.toggle('titledark')
+                    cab.classList.toggle('cabezadark')
+                    paf.classList.toggle('parrafodark')
+
+                });
+            </script>
+        <footer class="footer">
+            <div class="limit footer__contenido">
+    
+            <div class="footer_bloque m_enlaces">
+                <div class="footer_titulo">INFORMACION PARA TU VIAJE</div>
                 <ul>
-                <li><a class ="nav-menu-link" href="../Ofertas.html">Ofertas</a></li>
-                <li><a class ="nav-menu-link" href="../destinos.html">Destinos</a></li>
-                <li><a class ="nav-menu-link" href="../Experiencias.html">Experiencias</a></li>
-                <li><a class ="nav-menu-link" href="../blog_viajero.html">Blog Viajero</a></li>
-                <li><a class ="nav-menu-link" href="../Suscribete.html">Suscribete</a></li>
+                <li><a class="footer_lista_enlace" target="_blank" href="https://ytuqueplanes.com/imagenes/images/files/feriados_2021_Perú.pdf">Lista de feriados 2021</a></li>
+                <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/senamhi">Clima y pronostico del tiempo</a></li>
+                <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/sernanp">Areas Naturales Protegidas</a></li>
                 </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="cuerpo">
-
-    <section class="bloque1">   
-    <h1 class="cabeza">Loreto</h1>
+            </div>
     
-        <p class="parrafo">A nivel turístico, los atractivos de Loreto son predominantemente ecológicos, entre los que podemos mencionar a: Lago Avispa – Se encuentra en la provincia de Requena. 
-            Es un hermoso lago ideal para la práctica de deportes como la pesca, el nado, el canotaje y asimismo la observación de escenarios naturales.</p>
-   
-    </section>
+            <div class="footer_bloque m_botones">
+                <div class="footer_titulo">ASISTENCIA AL VIAJERO</div>
+                <div class="footer_wtsp"><a target="_blank" href="https://chat.whatsapp.com/FCiulIy1sC4JGdASOUDDW4"><img src="/assets/wtsp.png" alt="logo-wtsp"></a></div>
+            </div>
     
-    </main>
-    <footer class="footer">
-        <div class="limit footer__contenido">
-
-        <div class="footer_bloque m_enlaces">
-            <div class="footer_titulo">INFORMACION PARA TU VIAJE</div>
-            <ul>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://ytuqueplanes.com/imagenes/images/files/feriados_2021_peru.pdf">Lista de feriados 2021</a></li>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/senamhi">Clima y pronostico del tiempo</a></li>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/sernanp">Areas Naturales Protegidas</a></li>
-            </ul>
-        </div>
-
-        <div class="footer_bloque m_botones">
-            <div class="footer_titulo">ASISTENCIA AL VIAJERO</div>
-            <div class="footer_wtsp"><a target="_blank" href="https://chat.whatsapp.com/FCiulIy1sC4JGdASOUDDW4"><img src="/assets/wtsp.png" alt="logo-wtsp"></a></div>
-        </div>
-
-        <div class="footer_bloque m_botones">
-            <div class="footer_titulo">RECIBE NUESTRAS NOVEDADES</div>
-            <a href="../suscribete.html" class="boton m--mediano m--235 m--morado"><strong>SUSCRIBIRME</strong></a>
-        </div>
-
-        <div class="footer_bloque m_redes">
-            <div class="footer_titulo">SIGUENOS</div>
-            <div class="footer_redes">
-            <div class="footer_logo"><img src="/assets/instagram-logo.png" alt="logoinsta"></div>
-            <div class="footer_logo"><img src="/assets/logo-twiter.jpg" alt="logotwiter"></div>
+            <div class="footer_bloque m_botones">
+                <div class="footer_titulo">RECIBE NUESTRAS NOVEDADES</div>
+                <a href="../suscribete.html" class="boton m--mediano m--235 m--morado"><strong>SUSCRIBIRME</strong></a>
+            </div>
+    
+            <div class="footer_bloque m_redes">
+                <div class="footer_titulo">SIGUENOS</div>
+                <div class="footer_redes">
+                <div class="footer_logo"><img src="/assets/instagram-logo.png" alt="logoinsta"></div>
+                <div class="footer_logo"><img src="/assets/logo-twiter.jpg" alt="logotwiter"></div>
+                </div>
             </div>
         </div>
-    </div>
-    </footer>
-    
-</body>
+    </section>
+        </footer>
+    </body>
 </html>

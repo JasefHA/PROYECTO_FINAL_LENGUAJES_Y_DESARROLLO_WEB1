@@ -476,6 +476,33 @@ body.dark .card-poster{
     left: 35%;
 }
 
-.aviso-cookies .titulo{
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo{
     margin-bottom: 15px;
+}
+
+.aviso-cookies .boton-cookie{
+    width: 100%;
+    border: none;
+    background: #f1f1f1;
+    color:black;
+    font-family: 'Lato',sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.aviso-cookies .boton-cookie:hover{
+    background-color: rgba(47, 47, 47, 0.918);
+    color: rgba(209, 209, 209, 0.918);
+}
+.aviso-cookies .enlace{
+    color: #006097;
+    text-decoration: none;
+    font-size: 15px;
 }

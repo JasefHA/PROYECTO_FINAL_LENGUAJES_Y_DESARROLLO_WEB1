@@ -266,7 +266,7 @@
     background-size: cover;
     background-position: center;
     transition: all 0.1s ease-in-out;
-    background-image: url(../assets/img-destinos/lima/lima.jpg);
+    background-image: url(../assets/img-destinos/tarapoto/tarapoto.jpg);
     animation: bannertarapoto 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
@@ -279,82 +279,82 @@
     background-size: cover;
     background-position: center;
     transition: all 0.1s ease-in-out;
-    background-image: url(../assets/img-destinos/lima/lima.jpg);
+    background-image: url(../assets/img-destinos/loreto/loreto.jpg);
     animation: bannerloreto 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
 }
 @keyframes bannerloreto{
     0%{
-        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto.jpg);
         background-size: cover;
     }
     25%{
-        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto.jpg);
         background-size: cover;
     }
 
     26%{
-        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto2.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto2.jpg);
         background-size: cover;
     }
 
     51%{
-        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto3.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto3.jpg);
         background-size: cover;
     }
 
     76%{
-        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto4.jpeg);
         background-size: cover;
     }
     100%{
-        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-image: url(../assets/img-destinos/loreto/loreto4.jpeg);
         background-size: cover;
     }
 }
 @keyframes bannertarapoto{
     0%{
-        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto.jpg);
         background-size: cover;
     }
     25%{
-        background-image: url(../assets/img-destinos/lima/lima.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto.jpg);
         background-size: cover;
     }
 
     26%{
-        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto2.jpg);
         background-size: cover;
     }
     50%{
-        background-image: url(../assets/img-destinos/lima/lima2.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto2.jpg);
         background-size: cover;
     }
 
     51%{
-        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto3.jpg);
         background-size: cover;
     }
     75%{
-        background-image: url(../assets/img-destinos/lima/lima3.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto3.jpg);
         background-size: cover;
     }
 
     76%{
-        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto4.jpg);
         background-size: cover;
     }
     100%{
-        background-image: url(../assets/img-destinos/lima/lima4.jpg);
+        background-image: url(../assets/img-destinos/tarapoto/tarapoto4.jpg);
         background-size: cover;
     }
 }

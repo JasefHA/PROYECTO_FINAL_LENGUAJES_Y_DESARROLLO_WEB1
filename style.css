@@ -436,7 +436,7 @@ section{
     right: 0;
     left: unset;
 }
-
+/*DARK MODE*/
 body.dark{
     background: #131416;
 }
@@ -451,4 +451,31 @@ body.dark video{
 }
 body.dark .card-poster{
     box-shadow: 1px 05px 15px rgba(170, 170, 170, 0.5);
+}
+/*COOKIES*/
+.aviso-cookies{
+    display: block;
+    background: rgb(180, 179, 179);
+    padding: 20px;
+    width: calc(100%-40px);
+    max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100;
+    padding-top: 60px;
+    box-shadow: 5px 5px 20px 10px rgba(184, 177, 177, 0.25);
+    text-align: center;
+}
+.aviso-cookies .cookie{
+    max-width: 100px;
+    position: absolute;
+    top:-50px;
+    left: 35%;
+}
+
+.aviso-cookies .titulo{
+    margin-bottom: 15px;
 }

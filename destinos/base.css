@@ -1,0 +1,192 @@
+
+    .bloque1{
+    background-color: rgba(0,0,0,.6);
+    align-items: center;
+    max-width: 900px;
+    height: auto;
+    margin: auto;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+    background-size: cover;    
+}
+    .cabeza{
+    margin-top: 350px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    
+}
+    .parrafo{
+        max-width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        color: white;
+        font-size: 1.5rem;
+        
+}
+    .bloque2{
+        background-color: rgb(232, 232, 232);
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding-bottom: 10rem;
+        background-size: cover;
+}
+.container-total{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.container-baner{
+    width: 100%;
+    height: 100%;
+    align-content:center;
+}
+
+    .title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(72, 70, 70);
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+    .container-platos{
+    width: 100%;
+    max-width: 1200px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+    .container-platos .card{
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+    .container-platos .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+    .container-platos .card img{
+    width: 350px;
+    height: 220px;
+}
+
+
+.container-platos .card h4{
+    font-weight: 600;
+}
+
+.container-platos .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color:black;
+}
+
+.container-platos .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+.baner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:gainsboro;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.1s ease-in-out;
+    background-image: url(../assets/img-destinos/ayacucho/ayacucho.jpg);
+    animation: banner 20s infinite linear;
+    padding-top: 0rem;
+    padding-bottom: 1000px;
+}
+@keyframes banner{
+    0%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho.jpg);
+        background-size: cover;
+    }
+    25%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho.jpg);
+        background-size: cover;
+    }
+
+    26%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho2.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho2.jpg);
+        background-size: cover;
+    }
+
+    51%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho3.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho3.jpg);
+        background-size: cover;
+    }
+
+    76%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho4.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(../assets/img-destinos/ayacucho/ayacucho4.jpg);
+        background-size: cover;
+    }
+}
+.bloque2dark{
+    background-color: rgb(32, 32, 44);
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 10rem;
+    background-size: cover;
+}
+.container-platos .card p.dark{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.capa{
+    height: auto;
+    width: auto;
+    background-color: rgb(112, 169, 169);
+    float: right;
+    display: flex;
+}

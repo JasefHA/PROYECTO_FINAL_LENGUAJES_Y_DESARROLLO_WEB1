@@ -201,3 +201,7 @@
     background:#B37B00;
     margin: 26px auto ;
 }
+body.dark .post{
+  box-shadow: 0 1px 6px 1px rgba(255, 255, 255, 0.493);
+  background: rgb(36, 38, 43);
+}

@@ -73,10 +73,8 @@ section{
 }
 .header a{
     color: whitesmoke;
-    text-decoration: none;
     font-weight: bold;
-    padding-right: 10px;
-    font-size: 1.3rem;
+    font-size: 20.5px
 }
 
 .logo-nav-container{
@@ -105,7 +103,7 @@ section{
     margin: 0;
     padding: 0;
     display: flex;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .nav-menu li{
@@ -119,7 +117,7 @@ section{
 
 .nav-menu-link{
     display: block;
-    padding: 8px 12px;
+    padding: 8px 10px;
     border-radius: 8px;
 }
 
@@ -132,10 +130,11 @@ section{
 .logoavion{
     left: 0;
     padding-left: 0;
+    height: 100%;
 }
 .logoavion img{
     margin-top: 0px;
-    height: 324px;
+    height: 100%;
     width: 250px;
     border-radius: 8px;
     object-fit: cover;
@@ -393,3 +392,22 @@ section{
     }
 }
 
+/*DARK MODE*/
+
+.switch{
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+.switch span {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    background: none;
+    color: #fff;
+}

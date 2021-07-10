@@ -444,3 +444,9 @@ body.dark h2{
 body.dark p{
     color: rgba(245, 245, 245, 0.911);
 }
+body.dark video{
+    box-shadow: 0 0 10px rgba(204, 204, 204);
+}
+body.dark .card-poster{
+    box-shadow: 1px 05px 15px rgba(170, 170, 170, 0.5);
+}

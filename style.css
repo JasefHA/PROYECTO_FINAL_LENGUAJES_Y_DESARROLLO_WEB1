@@ -391,11 +391,6 @@ footer{
         height: calc(100%-90px);
         overflow-y: auto;
 
-<<<<<<< HEAD
-/*la fe cholo*/ 
-/* hola jesus dasdsadas */
-/**hola esto es una prue...rrre */
-=======
         left: 100%;
         transition: left 0.3s;
     }
@@ -428,4 +423,3 @@ footer{
         margin-top: 15px;
     }
 }
->>>>>>> 491f079340e59c95dd2dfd6555b2a78aeb29974b

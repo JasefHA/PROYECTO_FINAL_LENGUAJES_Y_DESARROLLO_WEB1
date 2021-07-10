@@ -1,3 +1,5 @@
+/*NAV RESPONSIVE */
+
 const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -10,3 +12,12 @@ navToggle.addEventListener("click", () => {
     navToggle.setAttribute("aria-label", "Abrir menú");
   }
 });
+
+/*DARK MODE */
+
+const btnSwitch = document.querySelector("#switch");
+
+btnSwitch.addEventListener("click",()=>{
+  document.body.classList.toggle("dark");
+  btnSwitch.classList.toggle("active");
+})

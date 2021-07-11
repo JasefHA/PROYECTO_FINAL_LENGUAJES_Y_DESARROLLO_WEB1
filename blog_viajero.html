@@ -155,43 +155,60 @@
                 </div>
               </div> 
  <!-- Empieza FAQ -->
-              <div class='container-fluid'> 
-                  <h2> Preguntas Frecuentes</h2>
-                  <div class='accordion'>
-                        <div class='icon'></div>
-                        <h5> Que es el blog viajero?</h5>
-                  </div>
-                  <div class='panel'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui, fuga magni vel, eius a debitis incidunt quos adipisci, suscipit quaerat natus! Deserunt aliquid eaque ab aperiam illum nam maxime!
-                    </p>
-                  </div>
-                  <div class='accordion'>
-                        <div class='icon'></div>
-                        <h5> que comere manana?</h5>
-                  </div>
-                  <div class='panel'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui, fuga magni vel, eius a debitis incidunt quos adipisci, suscipit quaerat natus! Deserunt aliquid eaque ab aperiam illum nam maxime!
-                    </p>
-                  </div>
-                  <div class='accordion'>
-                        <div class='icon'></div>
-                        <h5> estoy vivo?</h5>
-                  </div>
-                  <div class='panel'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui, fuga magni vel, eius a debitis incidunt quos adipisci, suscipit quaerat natus! Deserunt aliquid eaque ab aperiam illum nam maxime!
-                    </p>
-                  </div>
-                  <div class='accordion'>
-                        <div class='icon'></div>
-                        <h5> como es el universo?</h5>
-                  </div>
-                  <div class='panel'>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis qui, fuga magni vel, eius a debitis incidunt quos adipisci, suscipit quaerat natus! Deserunt aliquid eaque ab aperiam illum nam maxime!
-                    </p>
-                  </div>
+              <h1 class='titulo'>Preguntas Frecuentes</h1>
+              <div class= 'categorias' id='categorias'>
+                <div class='categoria activa' data-categoria='metodos-pago'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 7h-19v11h-1v-12h20v1zm-2-2h-19v11h-1v-12h20v1zm-6 6c-1.656 0-3 1.344-3 3s1.344 3 3 3 3-1.344 3-3-1.344-3-3-3zm.15 4.484v.315h-.3v-.299c-.311-.005-.632-.079-.898-.217l.135-.493c.287.11.669.229.968.162.345-.078.415-.433.034-.604-.279-.129-1.133-.242-1.133-.973 0-.409.312-.775.895-.855v-.319h.301v.305c.217.006.461.043.732.126l-.108.493c-.23-.08-.485-.154-.733-.139-.446.026-.486.413-.174.575.514.242 1.182.42 1.182 1.063 0 .516-.404.791-.901.86zm-10.15-7.484v12h20v-12h-20zm18 10h-16v-8h16v8z"/></svg> 
+                  <p>Metodos de pago</p>
+                </div>
+                <div class='categoria'data-categoria='seguridad'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.644c2.965 2.238 6.457 3.004 8.912 3.25-.658 7.052-4.892 12.593-8.912 15.655-4.021-3.062-8.255-8.603-8.912-15.656 2.454-.245 5.947-1.011 8.912-3.249zm0-2.644c-2.996 2.995-7.486 4-11 4 0 8.583 5.067 16.097 11 20 5.932-3.903 11-11.417 11-20-3.515 0-8.006-1.005-11-4zm3.794 8l-4.381 4.475-2.215-2.123-1.237 1.239 3.452 3.362 5.619-5.715-1.238-1.238z"/></svg>
+                  <p>Seguridad</p>
+                </div>
+                <div class='categoria'data-categoria='cuenta'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.997 18h-11.995l-.002-.623c0-1.259.1-1.986 1.588-2.33 1.684-.389 3.344-.736 2.545-2.209-2.366-4.363-.674-6.838 1.866-6.838 2.491 0 4.226 2.383 1.866 6.839-.775 1.464.826 1.812 2.545 2.209 1.49.344 1.589 1.072 1.589 2.333l-.002.619zm4.811-2.214c-1.29-.298-2.49-.559-1.909-1.657 1.769-3.342.469-5.129-1.4-5.129-1.265 0-2.248.817-2.248 2.324 0 3.903 2.268 1.77 2.246 6.676h4.501l.002-.463c0-.946-.074-1.493-1.192-1.751zm-22.806 2.214h4.501c-.021-4.906 2.246-2.772 2.246-6.676 0-1.507-.983-2.324-2.248-2.324-1.869 0-3.169 1.787-1.399 5.129.581 1.099-.619 1.359-1.909 1.657-1.119.258-1.193.805-1.193 1.751l.002.463z"/></svg>
+                  <p>Cuenta</p>
+                </div>
               </div>
-  <script src="blog-viajero.js"></script>           
+              <div class="preguntas">
 
+                <div class="contenedor-preguntas " data-categoria="metodos-pago">
+                  <div class='contenedor-pregunta'>
+                    <p class='pregunta'> Que puedo comprar en la web? <img src="assets/img-blog/icono_mas.svg" alt="Abrir respuesta"></p>
+                    <p class='respuesta'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos accusantium tenetur quo animi, assumenda expedita commodi doloribus impedit quaerat aspernatur id molestias aliquam perspiciatis hic ipsam voluptates, neque praesentium?</p>
+                  </div>
+
+                  <div class='contenedor-pregunta'>
+                    <p class='pregunta'> Que formas de pago tienen? <img src="assets/img-blog/icono_mas.svg" alt="Abrir respuesta"></p>
+                    <p class='respuesta'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos accusantium tenetur quo animi, assumenda expedita commodi doloribus impedit quaerat aspernatur id molestias aliquam perspiciatis hic ipsam voluptates, neque praesentium?</p>
+                  </div>
+                </div>
+
+                <div class="contenedor-preguntas" data-categoria="seguridad">
+                  <div class='contenedor-pregunta'>
+                    <p class='pregunta'> Mi informacion se comparte? <img src="assets/img-blog/icono_mas.svg" alt="Abrir respuesta"></p>
+                    <p class='respuesta'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos accusantium tenetur quo animi, assumenda expedita commodi doloribus impedit quaerat aspernatur id molestias aliquam perspiciatis hic ipsam voluptates, neque praesentium?</p>
+                  </div>
+                  <div class='contenedor-pregunta'>
+                    <p class='pregunta'> Las compras son protegidas? <img src="assets/img-blog/icono_mas.svg" alt="Abrir respuesta"></p>
+                    <p class='respuesta'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos accusantium tenetur quo animi, assumenda expedita commodi doloribus impedit quaerat aspernatur id molestias aliquam perspiciatis hic ipsam voluptates, neque praesentium?</p>
+                  </div>
+                </div>
+
+                <div class="contenedor-preguntas" data-categoria="cuenta">
+                  <div class='contenedor-pregunta'>
+                    <p class='pregunta'> Que puedo hacer con mi cuenta? <img src="assets/img-blog/icono_mas.svg" alt="Abrir respuesta"></p>
+                    <p class='respuesta'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos accusantium tenetur quo animi, assumenda expedita commodi doloribus impedit quaerat aspernatur id molestias aliquam perspiciatis hic ipsam voluptates, neque praesentium?</p>
+                  </div>
+                  <div class='contenedor-pregunta'>
+                    <p class='pregunta'> Como puedo eliminar mi cuenta?<img src="assets/img-blog/icono_mas.svg" alt="Abrir respuesta"></p>
+                    <p class='respuesta'> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos accusantium tenetur quo animi, assumenda expedita commodi doloribus impedit quaerat aspernatur id molestias aliquam perspiciatis hic ipsam voluptates, neque praesentium?</p>
+                  </div>
+                </div>
+
+              </div>
+<script src="blog-viajero-categorias.js"></script> 
+<script src="blog-viajero-preguntas.js"></script> 
 </main>
 
 

@@ -454,7 +454,7 @@ body.dark .card-poster{
 }
 /*COOKIES*/
 .aviso-cookies{
-    display: block;
+    display: none;
     background: rgb(180, 179, 179);
     padding: 20px;
     width: calc(100%-40px);
@@ -468,6 +468,9 @@ body.dark .card-poster{
     padding-top: 60px;
     box-shadow: 5px 5px 20px 10px rgba(184, 177, 177, 0.25);
     text-align: center;
+}
+.aviso-cookies .activo{
+    display: block;
 }
 .aviso-cookies .cookie{
     max-width: 100px;
@@ -505,4 +508,25 @@ body.dark .card-poster{
     color: #006097;
     text-decoration: none;
     font-size: 15px;
+}
+.fondo-aviso-cookies{
+    display: none;
+    background: rgba(0, 0, 0, 0.575);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.fondo-aviso-cookies .activo{
+    display: block;
+    background: rgba(0, 0, 0, 0.575);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
 }

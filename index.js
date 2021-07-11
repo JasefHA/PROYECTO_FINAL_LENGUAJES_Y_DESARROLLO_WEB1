@@ -45,11 +45,11 @@ btnSwitch.addEventListener("click",()=>{
 
   dataLayer = [];
 
-  if(!localStorage.getItem('cookies-aceptas')){
+  if(!localStorage.getItem("cookies-aceptadas")){
     avisoCookies.classList.add("activo");
     fondoAvisoCookies.classList.add("activo");
   }else{
-    dataLayer.push({"event":'cookies aceptadas'});
+    dataLayer.push({"event":"cookies aceptadas"});
   }
 
 
@@ -57,7 +57,7 @@ btnSwitch.addEventListener("click",()=>{
     avisoCookies.classList.remove("activo");
     fondoAvisoCookies.classList.remove("activo");
 
-    localStorage.setItem('cookies-aceptas', true);
+    localStorage.setItem("cookies-aceptadas", true);
 
-    dataLayer.push({"event":'cookies aceptadas'});
+    dataLayer.push({"event":"cookies aceptadas"});
   })

@@ -45,11 +45,12 @@ btnSwitch.addEventListener("click",()=>{
 
   // dataLayer = [];
 
-  if(!localStorage.getItem("cookies-aceptadas")){
-    avisoCookies.classList.add("activo");
-    fondoAvisoCookies.classList.add("activo");
-  }
+  // if(!localStorage.getItem("cookies-aceptadas")){
+    
+  // }
 
+  avisoCookies.classList.add("activo");
+    fondoAvisoCookies.classList.add("activo");
 
   botonAceptarCookies.addEventListener("click", () => {
     avisoCookies.classList.remove("activo");

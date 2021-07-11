@@ -9,7 +9,7 @@ slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 
 function Next(){
     let sliderSectionFist = document.querySelector(".slider__section")[0];
-    slider.style.marginLeft = "-200%";
+    slider.style.marginLeft = "-100%";
     slider.style.transition = "all 0.5s";
     setTimeout(function(){
         slider.style.transition = "none";
@@ -36,4 +36,4 @@ btnLeft.addEventListener('click', function(){Prev();});
 
 setInterval(function(){
      Prev();
- },5500);
+ },3500);

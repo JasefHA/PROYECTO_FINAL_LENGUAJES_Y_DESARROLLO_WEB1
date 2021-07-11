@@ -37,3 +37,6 @@ btnSwitch.addEventListener("click",()=>{
     document.body.classList.remove("dark");
     btnSwitch.classList.remove("active");
   }
+
+/*COOKIES */
+  

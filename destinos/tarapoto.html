@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../destinos/base.css">
     <script defer src="../index.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script defer src="./base.js"></script>
 </head>
 <link rel="icon" 
       type="image/png" 
@@ -39,7 +40,10 @@
         </main>
         <section class="bloque3" id="bloque3">
             <div class="capa">
-                <button id="bdark">Modo Oscuro</button>
+                <button class="palanca" id="palanca">
+                    <span><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </button>
         </div>
         <section class="contenedor2">
             <section class="bloque1">   
@@ -80,20 +84,7 @@
                 </div>
             </div>
         </section>
-            <script>
-                const bdark = document.querySelector('#bdark');
-                const doc = document.querySelector('#bloque3');
-                const tit = document.querySelector('#title');
-                const cab = document.querySelector('#cabeza');
-                const paf = document.querySelector('#parrafo')
-                bdark.addEventListener('click', e=>{
-                    doc.classList.toggle('bloque3dark')
-                    tit.classList.toggle('titledark')
-                    cab.classList.toggle('cabezadark')
-                    paf.classList.toggle('parrafodark')
-
-                });
-            </script>
+            
         <footer class="footer">
             <div class="container-footer">
                 <div class="row">

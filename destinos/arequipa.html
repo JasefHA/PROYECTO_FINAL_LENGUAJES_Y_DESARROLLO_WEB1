@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazonas</title>
+    <title>Arequipa</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../destinos/base.css">
     <script defer src="../index.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script defer src="./base.js"></script>
 </head>
 <link rel="icon" 
       type="image/png" 
@@ -39,17 +40,20 @@
         </main>
         <section class="bloque3" id="bloque3">
             <div class="capa">
-                <button id="bdark">Modo Oscuro</button>
+                <button class="palanca" id="palanca">
+                    <span><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </button>
         </div>
         <section class="contenedor2">
             <section class="bloque1">   
-                <h1 class="cabeza" id="cabeza">Ayacucho</h1>
+                <h1 class="cabeza" id="cabeza">Arequipa</h1>
                 
-                    <p class="parrafo" id="parrafo">Este destino combina paisajes naturales y sitios históricos. Gracias al documento internacional que certifica la seguridad e higiene ante el coronavirus, se reconoció a tres atractivos bioseguros, entre los que destacan las piscinas naturales de Millpu. En este lugar, ubicado a cuatro horas desde la ciudad de Huamanga, los turistas podrán apreciar aguas turquesas y sacar las mejores fotografías..</p>
+                    <p class="parrafo" id="parrafo">Llamada la Ciudad Blanca, Arequipa está situada a las faldas del imponente volcán “Misti” y su figura coronada por nieves, nos acompaña por toda la urbe. La segunda ciudad en población y capacidad económica del Perú, Arequipa cuenta con una hermosísima campiña, bañada por el río Chilli.</p>
                
                 </section>
                 <section class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62161.02405147989!2d-74.24732369333404!3d-13.158362827700202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d88f5b2bee9%3A0xe9b3cb843a70a16e!2sAyacucho!5e0!3m2!1ses-419!2spe!4v1625920220906!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61238.56742562407!2d-71.57403112481208!3d-16.403967111969354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a487785b9b3%3A0xa3c4a612b9942036!2sArequipa!5e0!3m2!1ses-419!2spe!4v1625946926970!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </section>
         </section>
         
@@ -60,40 +64,27 @@
                 
                 <div class="card">
                     <img src="/assets/img-destinos/arequipa/comidaarequipa1.jpg">
-                    <h4>Aji de gallina</h4>
+                    <h4>Ocopa Arequipeña</h4>
                     <p>Este ají de gallina es una receta tradicional peruana y queda deliciosa. Consiste en una crema espesa y con un toque picante hecha con ají amarillo.</p>
                     <a href="#">Leer más</a>
                 </div>
                 
                 <div class="card">
                     <img src="/assets/img-destinos/arequipa/comidaarequipa2.jpg">
-                    <h4>Ceviche</h4>
+                    <h4>Rocoto Relleno</h4>
                     <p>El ceviche es un plato típico de la gastronomía peruana y ha tenido tanto éxito que sus sabores se han extendido a otros países latinoamericanos. </p>
                     <a href="#">Leer más</a>
                 </div>
                 
                 <div class="card">
                     <img src="/assets/img-destinos/arequipa/comidaarequipa3.jpg">
-                    <h4>Pollo a la brasa</h4>
+                    <h4>Adobo Arequipeño</h4>
                     <p>Es el plato más consumido del Perú. Su jugoso sabor y su costo accesible son las variables que explican su éxito entre los comensales. </p>
                     <a href="#">Leer más</a>
                 </div>
             </div>
         </section>
-            <script>
-                const bdark = document.querySelector('#bdark');
-                const doc = document.querySelector('#bloque3');
-                const tit = document.querySelector('#title');
-                const cab = document.querySelector('#cabeza');
-                const paf = document.querySelector('#parrafo')
-                bdark.addEventListener('click', e=>{
-                    doc.classList.toggle('bloque3dark')
-                    tit.classList.toggle('titledark')
-                    cab.classList.toggle('cabezadark')
-                    paf.classList.toggle('parrafodark')
-
-                });
-            </script>
+            
         <footer class="footer">
             <div class="container-footer">
                 <div class="row">

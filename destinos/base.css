@@ -780,9 +780,50 @@ button:hover{
     color: white;
 }
 .capa{
-    height: auto;
-    width: auto;
-    background-color: rgb(112, 169, 169);
-    float: right;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    left: 0;
+    
+    
+     
+}
+.palanca{
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
     display: flex;
+    outline: none;
+}
+.palanca span {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    background: none;
+    color: #fff;
+}
+.palanca::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.219);
+}
+.palanca.active{
+    background: orange;
+    color: #000;
+}
+.palanca.active::after{
+    right: 0;
+    left: unset;
 }

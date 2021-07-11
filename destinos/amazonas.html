@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../destinos/base.css">
     <script defer src="../index.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script defer src="./base.js"></script>
 </head>
 <link rel="icon" 
       type="image/png" 
@@ -39,17 +40,20 @@
         </main>
         <section class="bloque3" id="bloque3">
             <div class="capa">
-                <button id="bdark">Modo Oscuro</button>
+                <button class="palanca" id="palanca">
+                    <span><i class="fas fa-sun"></i></span>
+                    <span><i class="fas fa-moon"></i></span>
+                </button>
         </div>
         <section class="contenedor2">
             <section class="bloque1">   
-                <h1 class="cabeza" id="cabeza">Ayacucho</h1>
+                <h1 class="cabeza" id="cabeza">Amazonas</h1>
                 
-                    <p class="parrafo" id="parrafo">Este destino combina paisajes naturales y sitios históricos. Gracias al documento internacional que certifica la seguridad e higiene ante el coronavirus, se reconoció a tres atractivos bioseguros, entre los que destacan las piscinas naturales de Millpu. En este lugar, ubicado a cuatro horas desde la ciudad de Huamanga, los turistas podrán apreciar aguas turquesas y sacar las mejores fotografías..</p>
+                    <p class="parrafo" id="parrafo">La selva amazónica es la selva tropical más grande del mundo, con una superficie de 5.500.000 km². Representa más de la mitad de las selvas tropicales del planeta y comprende el tramo más grande y con mayor biodiversidad de la selva tropical en el mundo. Esta región incluye territorio perteneciente a nueve naciones.</p>
                
                 </section>
                 <section class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62161.02405147989!2d-74.24732369333404!3d-13.158362827700202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127d88f5b2bee9%3A0xe9b3cb843a70a16e!2sAyacucho!5e0!3m2!1ses-419!2spe!4v1625920220906!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4070135.4789038505!2d-80.16683060311077!3d-4.982533540233839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b5fa68b2b1689b%3A0x274c7cb97b90b44c!2sAmazonas!5e0!3m2!1ses-419!2spe!4v1625946390514!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </section>
         </section>
         
@@ -60,40 +64,27 @@
                 
                 <div class="card">
                     <img src="/assets/img-destinos/amazonas/comidaamazonas1.jpg">
-                    <h4>Aji de gallina</h4>
+                    <h4>Trucha Frita</h4>
                     <p>Este ají de gallina es una receta tradicional peruana y queda deliciosa. Consiste en una crema espesa y con un toque picante hecha con ají amarillo.</p>
-                    <a href="#">Leer más</a>
+                    <a href="https://www.enperu.org/gastronomia/trucha-frita-2/" target="_blank">Leer más</a>
                 </div>
                 
                 <div class="card">
                     <img src="/assets/img-destinos/amazonas/comidaamazonas2.jpg">
-                    <h4>Ceviche</h4>
-                    <p>El ceviche es un plato típico de la gastronomía peruana y ha tenido tanto éxito que sus sabores se han extendido a otros países latinoamericanos. </p>
-                    <a href="#">Leer más</a>
+                    <h4>Juanes</h4>
+                    <p>El juane1​ es un Tamal típico de la gastronomía de la selva peruana y es muy consumido durante la fiesta de San Juan que se celebra el 24 de junio de cada año en honor a Juan Bautista.1​2​ Según algunas referencias, tuvo su origen en la ciudad de Moyobamba.</p>
+                    <a href="https://sibarita.pe/recetario/receta/juane" target="_blank">Leer más</a>
                 </div>
                 
                 <div class="card">
                     <img src="/assets/img-destinos/amazonas/comidaamazonas3.jpg">
-                    <h4>Pollo a la brasa</h4>
-                    <p>Es el plato más consumido del Perú. Su jugoso sabor y su costo accesible son las variables que explican su éxito entre los comensales. </p>
-                    <a href="#">Leer más</a>
+                    <h4>Humitas</h4>
+                    <p>la Humita es una comida basada en el maíz Consiste básicamente en una pasta o masa de maíz levemente aliñada, envuelta y finalmente cocida o tostada en las propias hojas de una mazorca de maíz</p>
+                    <a href="https://www.gourmet.cl/recetas/humitas/" target="_blank">Leer más</a>
                 </div>
             </div>
         </section>
-            <script>
-                const bdark = document.querySelector('#bdark');
-                const doc = document.querySelector('#bloque3');
-                const tit = document.querySelector('#title');
-                const cab = document.querySelector('#cabeza');
-                const paf = document.querySelector('#parrafo')
-                bdark.addEventListener('click', e=>{
-                    doc.classList.toggle('bloque3dark')
-                    tit.classList.toggle('titledark')
-                    cab.classList.toggle('cabezadark')
-                    paf.classList.toggle('parrafodark')
-
-                });
-            </script>
+            
         <footer class="footer">
             <div class="container-footer">
                 <div class="row">

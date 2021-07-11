@@ -38,4 +38,4 @@ btnSwitch.addEventListener("click",()=>{
     btnSwitch.classList.remove("active");
   }
 
-/*COOKIES */
+

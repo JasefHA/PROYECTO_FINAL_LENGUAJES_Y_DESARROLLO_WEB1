@@ -1,0 +1,1 @@
+const botonAceptarCookies = document.getElementById(btn-aceptar-cookies)

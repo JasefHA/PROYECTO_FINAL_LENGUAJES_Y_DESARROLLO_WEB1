@@ -453,3 +453,67 @@ body.dark .card-poster{
     box-shadow: 1px 05px 15px rgba(170, 170, 170, 0.5);
 }
 /*COOKIES*/
+.aviso-cookies{
+    display: block;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    width: calc(100%-40px);
+    max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    left: 30px;
+    bottom: 20px;
+    z-index: 100;
+    padding-top: 60px;
+    box-shadow: 2px 4px 15px 12px rgba(209, 221, 226, 0.75);
+    text-align: center;
+}
+
+.aviso-cookies .galleta{
+    max-width: 100px;
+    position: absolute;
+    top: -50px;
+    left: 35%;
+}
+.aviso-cookies .titulo-cookie,
+.aviso-cookies .parrafo-cookie
+{
+    margin-bottom: 15px;
+}
+.aviso-cookies .cookie-boton{
+    width: 100%;
+    background: rgba(30, 69, 141, 0.767);
+    border: none;
+    color: floralwhite;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.aviso-cookies .cookie-boton:hover{
+    background: rgba(19, 25, 37, 0.767);
+    color: rgb(255, 255, 255);
+}
+.aviso-cookies .enlace{
+    text-decoration: none;
+    color: rgb(42, 103, 131);
+    font-size: 14px;
+}
+.aviso-cookies .enlace:hover{
+    text-decoration: underline;
+}
+.fondo-aviso-cookies{
+    display: block;
+    background: rgba(0, 0, 0, 0.219);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}

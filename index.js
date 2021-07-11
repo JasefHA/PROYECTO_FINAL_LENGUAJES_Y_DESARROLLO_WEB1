@@ -56,6 +56,4 @@ btnSwitch.addEventListener("click",()=>{
     fondoAvisoCookies.classList.remove("activo");
 
     localStorage.setItem("cookies-aceptadas", true);
-
-    // dataLayer.push({"event":"cookies aceptadas"});
   })

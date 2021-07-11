@@ -454,7 +454,7 @@ body.dark .card-poster{
 }
 /*COOKIES*/
 .aviso-cookies{
-    display: block;
+    display: none;
     background: rgb(255, 255, 255);
     padding: 20px;
     width: calc(100%-40px);
@@ -468,6 +468,9 @@ body.dark .card-poster{
     padding-top: 60px;
     box-shadow: 2px 4px 15px 12px rgba(209, 221, 226, 0.75);
     text-align: center;
+}
+.aviso-cookies.activo{
+    display: block;
 }
 
 .aviso-cookies .galleta{
@@ -508,7 +511,7 @@ body.dark .card-poster{
     text-decoration: underline;
 }
 .fondo-aviso-cookies{
-    display: block;
+    display: none;
     background: rgba(0, 0, 0, 0.219);
     position: fixed;
     z-index: 99;
@@ -516,4 +519,7 @@ body.dark .card-poster{
     height: 100vh;
     top: 0;
     left: 0;
+}
+.fondo-aviso-cookies.activo{
+    display: block;
 }

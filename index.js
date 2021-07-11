@@ -39,4 +39,3 @@ btnSwitch.addEventListener("click",()=>{
   }
 
 /*COOKIES */
-  

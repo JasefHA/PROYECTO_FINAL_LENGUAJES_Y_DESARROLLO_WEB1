@@ -33,7 +33,7 @@
     justify-content: center;
     margin: auto;
 }
-    .parrafo{
+.parrafo{
         max-width: 100%;
         text-align:justify;
         margin: auto;
@@ -42,7 +42,7 @@
         font-size: 18px;
         
 }
-    .bloque2{
+.bloque2{
         background-color: transparent;
         align-items: center;
         width: 100%;
@@ -61,8 +61,18 @@
     height: 100%;
     align-content:center;
 }
+.title{
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
 
 .cabeza{
+    background-color: transparent;
     text-align: center;
     font-size: 40px;
     color: black;
@@ -776,10 +786,26 @@
     justify-content: center;
     margin: auto;
 }
-.bodydark{
+
+body.dark .cabeza{
     background-color: rgb(47, 47, 47);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
 }
-.bloque3dark{
+body.dark .title{
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+body.dark .bloque3dark{
     background-color: transparent;
     align-items: center;
     width: 100%;
@@ -787,23 +813,6 @@
     margin: auto;
     padding-bottom: 10rem;
     background-size: cover;
-}
-.cabezadark{
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    margin-top: 100px;
-    font-weight: 100;
-    font-family: 'Lato', sans-serif;
-}  
-
-.parrafodark{
-    max-width: 100%;
-        text-align: center;
-        margin: auto;
-        margin-top: 20px;
-        color: white;
-        font-size: 1.5rem;
 }
 .container-platos .card p.dark{
     padding: 0 1rem;

@@ -1,8 +1,8 @@
-const btnSwitch = document.querySelector('#switch');
-const bloque = document.querySelector('#bloque3');
-const tit = document.querySelector('#cabeza');
-const paf = document.querySelector('#parrafo');
-const body = document.querySelector('#body');
+const btnSwitch = document.querySelector('switch');
+const bloque = document.querySelector('bloque3');
+const tit = document.querySelector('cabeza');
+const paf = document.querySelector('parrafo');
+
 btnSwitch.addEventListener('click',e=>{
 
     bloque.classList.toggle('bloque3dark')

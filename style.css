@@ -12,6 +12,7 @@ li,ol,ul{
 a{
     text-decoration: none;
     outline: none;
+    color: white;
 }
 video{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);

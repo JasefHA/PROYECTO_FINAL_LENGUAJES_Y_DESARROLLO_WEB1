@@ -19,7 +19,7 @@ main{
     justify-content: center;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 128, 255, 0.5);
+    background-color: rgba(0, 88, 177, 0.746);
 
 }
 
@@ -80,7 +80,7 @@ main{
 .contenedor__login-register form{
     width: 100%;
     padding: 80px 20px;
-    background: white;
+    background: rgb(255, 255, 255);
     position: absolute;
     border-radius: 20px;
 }
@@ -107,7 +107,7 @@ main{
     margin-top: 40px;
     border: none;
     font-size: 14px;
-    background: #46A2FD;
+    background: #3499ff;
     font-weight: 600;
     cursor: pointer;
     color: white;
@@ -157,4 +157,10 @@ main{
     .contenedor__login-register form{
         position: relative;
     }
+}
+
+body.dark .contenedor__login-register form{
+
+    background: rgb(255, 255, 255);
+
 }

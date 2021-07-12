@@ -6,112 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../ofertas.css">
-    <title>TiempoDeViajar</title>
-
-</head>
+    <link rel="stylesheet" href="../destinos/base.css">
+    <title>Tarma</title>
+    <script src="https://kit.fontawesome.com/
+    a038cad9ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script defer src="../index.js"></script>
+    <script defer src="ofertas.js"></script>
+   
 <link rel="icon" 
       type="image/png" 
       href="/assets/favicon-avion.png">
-<body class="body-tarma">
-    
+<body class="dark">
+    <div class="container-total">
     <header class="header">
         <div class="container logo-nav-container">
-            <a href="../index.html" class="logoavion"><img src="/assets/logo-nav.png" alt="LOGO"></a>
+            <a href="../index.html" class="logoavion"><img src="/assets/logo-nav3.png" alt="LOGO"></a>
             <nav class="navegador">
-                <ul>
-                <li><a class ="nav-menu-link" href="../Ofertas.html">Ofertas</a></li>
-                <li><a class ="nav-menu-link" href="../Destinos.html">Destinos</a></li>
-                <li><a class ="nav-menu-link" href="../Experiencias.html">Experiencias</a></li>
-                <li><a class ="nav-menu-link" href="../blog_viajero.html">Blog Viajero</a></li>
-                <li><a class ="nav-menu-link" href="../Suscribete.html">Suscribete</a></li>
+                <ul class="nav-menu">
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Ofertas.html">Ofertas</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../destinos.html">Destinos</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Experiencias.html">Experiencias</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../blog_viajero.html">Blog Viajero</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Suscribete.html">Suscríbete</a></li>
                 </ul>
             </nav>
+            
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </header>
-    <main class="main-tarma">
-        <div class="bloque1">
-            <p class="parrafo">DESCRIPCIÓN</p>
-            <P class="parrafo">A nivel turístico Tarma presenta diferentes atractivos, entre los que se encuentran:
+  
+   <main>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section"><img src="/assets/img-ofertas/slider-tarma/tarma1.jpg" alt="tarma1" class="slider__img"></div>
+            <div class="slider__section"><img src="/assets/img-ofertas/slider-tarma/tarma2.jpg" alt="tarma2" class="slider__img"></div>
+            <div class="slider__section"><img src="/assets/img-ofertas/slider-tarma/tarma3.jpg" alt="tarma3" class="slider__img"></div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+    </div>
+    <section class="bloque3" id="bloque3">
+        <div class="capa">
+            <button class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+    </div>
+    </section>
+    <section class="contenedor2">
+        <section class="bloque1">   
+            <h2 class="cabeza" id="cabeza">Tarma</h2>
+                        
+                <p class="parrafo" id="parrafo">Desde Tarma sale el Sendero Pampa Hermosa, una ruta de excursionismo a través de las zonas Quechua, Suni, Puna y Yunga según la división del geógrafo Javier Pulgar Vidal. Se cruza el Santuario Nacional Pampa Hermosa, una de las últimas áreas con bosque nubloso del Perú. Aparte de Tarma y Nueva Italia/San Ramón, no hay infraestructura hotelera, es decir que, se duerme en las condiciones sencillas de los anexos visitados o en carpas propias . Es recomendable visitar la Información Turística de Tarma antes de la salida e informarse sobre la organización de transportes y guías.
 
-                Complejo Arqueológico de Tarmatambo – Este se encuentra en el distrito de Tarma, en medio de un camino incaico. Se cree que habría tenido un fin administrativo o de conexión con otra ciudad incaica llamada Pumpu. En el lugar se hallan evidencias de edificaciones planta circular y cuadrangular.
-                
-                Complejo Arqueológico de Arrobayoc – En el territorio se han encontrado restos arquitectónicos que presentan formas circulares y cuadrangulares. Si bien el diseño arquitectónico de Arrobayoc llama la atención, resulta más interesante del lugar las tumbas que presenta y que se pueden avistar a la distancia.
-                 </P>
-
-            <p class="parrafo">INCLUYE</p>
-            <P class="parrafo"><ul class="parrafo"> 
-                + Bus Privado para el grupo (servicio compartido).
-                + Guia de Turismo
-            <p class="parrafo"> NO INCLUYE</p>
-            <P class="parrafo"> <ul class="parrafo">
-                + Entrada a la Gruta de Guapapo
-                + Equipo de Aventura para ingresar a la Gruta
-                + Entrada a Cachi Pozo
-                + Alimentacion
-                + Bebidas
-                + Gastos personales</ul>
-            <p class="parrafo"> Actividades </p>
-            <ul class="parrafo">
-                + visitas culturales
-                + visitas Guiadas 
-                + visitas Historicas
-            </ul>
-            
-
-            
-            </P>
-                
-                 </ul>
-                </P>
-                 <p class="parrafo">ITINERARIO
-                    Inicio: 10:30 am.
-                    Salida de la ciudad de Tarma.
-                    Acobamba: Santuario del señor de Muruhuay.
-                    Picoy: Plaza principal e Iglesia matriz.
-                    Shaprash: Rostro de Cristo barbudo.
-                    Palcamayo: Parque principal e Iglesia matriz.
-                    Gruta de Guagapo: La más grande y profunda de Sudamérica.
-                    San Pedro de Cajas: Plaza principal e Iglesia matriz.
-                    Talleres artesanales y textiles.
-                    Cachi Pozo: Pozas de agua salada Pre Inca.
-                    Retorno a Tarma.
-                    Fin: 6:00 pm.
                 </p>
-                
+           
+            </section>
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62569.660766633875!2d-75.72262351850017!3d-11.436276591982596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910920940aa07519%3A0xc7f75d40d07157c1!2sTarma!5e0!3m2!1ses-419!2spe!4v1626103099926!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+    </section>
+    <section class="bloque2" id="bloque2">
+        <h1 class="title" id="title">INCLUYE</h1>
+        <div class="container-platos">
             
+            <div class="card">
+                <img src="/assets/img-ofertas/slider-tarma/tarma1.jpg">
+                <h4>Atractivos Naturales </h4>
+                ..
+                <p>Actividades
+                    Paseo a áreas naturales (incluida)
+                    Observación fauna y flora (incluida)
+                    Caminata, senderismo, trekking (incluida)
+                    Visitas culturales (incluida)
+                    Visitas guiadas (incluida) </p>
+                ..
             </div>
-    </main>
+            
+            <div class="card">
+                <img src="/assets/img-ofertas/slider-tarma/tarma2.jpg">
+                <h4>Ciudad de tarma</h4>
+                <p class=centrarestetexto>Visita Tarma "La Perla de los Andes", aprende sobre su historia, su gente y sus costumbres
+                    Disfruta de los encantos de la ciudad de Tarma, recorre la Plaza de Armas, su iglesia matriz, el féretro de Manuel A. Odria, aprende sobre su hirtoria y mucho más!   </p>
+                
+            </div>
+            
+            <div class="card">
+                <img src="/assets/img-ofertas/slider-tarma/tarma3.jpg">
+                <h4>NOTAS</h4>
+                ..
+                <p class=centrarestetexto>
+                    Incluye
+                Transporte turístico
+                Guiado turístico
+                Asistencia personalizada
+                No incluye
+                Boletos turísticos
+                Pasajes hacia Huancayo.
+            </div>
+        </div>
+    </section>
+</main>
 
     <footer class="footer">
-        <div class="limit footer__contenido">
-
-        <div class="footer_bloque m_enlaces">
-            <div class="footer_titulo">INFORMACION PARA TU VIAJE</div>
-            <ul>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://ytuqueplanes.com/imagenes/images/files/feriados_2021_peru.pdf">Lista de feriados 2021</a></li>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/senamhi">Clima y pronostico del tiempo</a></li>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/sernanp">Areas Naturales Protegidas</a></li>
-            </ul>
-        </div>
-
-        <div class="footer_bloque m_botones">
-            <div class="footer_titulo">ASISTENCIA AL VIAJERO</div>
-            <div class="footer_wtsp"><a target="_blank" href="https://chat.whatsapp.com/FCiulIy1sC4JGdASOUDDW4"><img src="/assets/wtsp.png" alt="logo-wtsp"></a></div>
-        </div>
-
-        <div class="footer_bloque m_botones">
-            <div class="footer_titulo">RECIBE NUESTRAS NOVEDADES</div>
-            <a href="../suscribete.html" class="boton m--mediano m--235 m--morado"><strong>SUSCRIBIRME</strong></a>
-        </div>
-
-        <div class="footer_bloque m_redes">
-            <div class="footer_titulo">SIGUENOS</div>
-            <div class="footer_redes">
-            <div class="footer_logo"><img src="/assets/instagram-logo.png" alt="logoinsta"></div>
-            <div class="footer_logo"><img src="/assets/logo-twiter.jpg" alt="logotwiter"></div>
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Informacion para tu viaje</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://www.gob.pe/feriados">Lista de feriados 2021</a></li>
+                        <li><a target="_blank" href="https://www.gob.pe/senamhi">Clima y pronostico del tiempo</a></li>
+                        <li><a target="_blank" href="https://www.gob.pe/sernanp">Areas Naturales Protegidas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Asistencia al viajero</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suscríbete</h4>
+                    <ul>
+                        <li><a href="/suscribete.html">Suscripción</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Quienes Somos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </footer>
+   </footer>
+
+</div>
 </body>
 </html>

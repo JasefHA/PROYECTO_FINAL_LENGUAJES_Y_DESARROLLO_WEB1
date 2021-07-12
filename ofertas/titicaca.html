@@ -6,101 +6,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../ofertas.css">
-    <title>TiempoDeViajar</title>
-  
-</head>
+    <link rel="stylesheet" href="../destinos/base.css">
+    <title>Titicaca</title>
+    <script src="https://kit.fontawesome.com/
+    a038cad9ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script defer src="../index.js"></script>
+    <script defer src="ofertas.js"></script>
+   
 <link rel="icon" 
       type="image/png" 
       href="/assets/favicon-avion.png">
-<body class="body-titicaca">
-    
+<body class="dark">
+    <div class="container-total">
     <header class="header">
         <div class="container logo-nav-container">
-            <a href="../index.html" class="logoavion"><img src="/assets/logo-nav.png" alt="LOGO"></a>
+            <a href="../index.html" class="logoavion"><img src="/assets/logo-nav3.png" alt="LOGO"></a>
             <nav class="navegador">
-                <ul>
-                <li><a class ="nav-menu-link" href="../Ofertas.html">Ofertas</a></li>
-                <li><a class ="nav-menu-link" href="../Destinos.html">Destinos</a></li>
-                <li><a class ="nav-menu-link" href="../Experiencias.html">Experiencias</a></li>
-                <li><a class ="nav-menu-link" href="../blog_viajero.html">Blog Viajero</a></li>
-                <li><a class ="nav-menu-link" href="../Suscribete.html">Suscribete</a></li>
+                <ul class="nav-menu">
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Ofertas.html">Ofertas</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../destinos.html">Destinos</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Experiencias.html">Experiencias</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../blog_viajero.html">Blog Viajero</a></li>
+                <li><a class ="nav-menu-link nav-menu-link_active" href="../Suscribete.html">Suscríbete</a></li>
                 </ul>
             </nav>
+            
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </header>
-    <main class="main-titicaca">
-        <div class="bloque1">
-            <p class="parrafo">DESCRIPCIÓN</p>
+  
+   <main>
+    <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section"><img src="/assets/img-ofertas/slider-titicaca/titicaca1.jpg" alt="tarma1" class="slider__img"></div>
+            <div class="slider__section"><img src="/assets/img-ofertas/slider-titicaca/titicaca2.jpg" alt="tarma2" class="slider__img"></div>
+            <div class="slider__section"><img src="/assets/img-ofertas/slider-titicaca/titicaca3.jpg" alt="tarma3" class="slider__img"></div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
+        <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+    </div>
+    <section class="bloque3" id="bloque3">
+        <div class="capa">
+            <button class="switch" id="switch">
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+    </div>
+    </section>
+    <section class="contenedor2">
+        <section class="bloque1">   
+            <h2 class="cabeza" id="cabeza">Titicaca</h2>
+                        
+                <p class="parrafo" id="parrafo">El lago Titicaca es el lago navegable más alto del mundo a más de 3,800 metros sobre el nivel del mar.
+                    La ciudad de Puno está situada a orillas del Titicaca y es la entrada para iniciar la visita a las famosas islas flotantes de totora de los Uros.
+                    Las islas flotantes estás hechas de caña de Totora, en donde la gente de los Uros se las ha ingeniado para forjar un estilo de vida que subsiste a través de los siglos.
+                    Las remotas islas de Taquila y Amantani mantiene muchas de sus acentrales tradiciones y culturas, y son reconocidas por sus exquisitas fábricas de tejido
 
-            <P class="parrafo">
-                Vive una experiencia inolvidable, navegando en bote al Lago Titicaca y un tour guiado a unas islas increíbles conociendo a las comunidades que viven ahí. Las Islas Flotantes de los Uros son famosas por su construcción única, hechas caña y que los habitantes de las islas mantienen constantemente. Más remota, la isla de Taquile es menos conocida, y está esperando que la descubras! No dejes pasar esta oportunidad de aprender sobre una forma de vida y cultura completamente diferente a la tuya.
-                 </P>
-            
-            <p class="parrafo">INCLUYE</p>
-            
-                 <P class="parrafo"><ul class="parrafo">
-                    - Recojo y traslados a tu hotel/hostel
-                    - Transporte en bote
-                    - Guía profesional
-                    - Entrada a la isla Uros y Taquile
-                    - Almuerzo en Taquile (trucha fresca / tortilla para vegetarianos)     
-                 </ul>
-                </P>
-            <p class="parrafo">ITINERARIO</p>
-                 <ul class="parrafo">
-                    06:45 - 07:15
-                    Recojo a hoteles y hostels
-                    
-                    07:15
-                    Salida desde el puerto de Puno a las Islas Flotantes de los Uros
-                    
-                    09:00
-                    Viaje en bote a la isla Taquile
-                    
-                    12:00
-                    Tour guiado de la isla Taquile, almuerzo
-                    
-                    14:30
-                    Return boat ride to Puno
-                    
-                    17:00
-                    Arrival to Puno, drop off to hotels/hostels
                 </p>
-            </ul>
+           
+            </section>
+            <section class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1167692.8111255527!2d-70.092227097008!3d-15.98325039315101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915d9b22f6af7c75%3A0xf682724d4df71dc!2sTiticaca!5e0!3m2!1ses-419!2spe!4v1626105894465!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+    </section>
+    <section class="bloque2" id="bloque2">
+        <h1 class="title" id="title">INCLUYE</h1>
+        <div class="container-platos">
             
+            <div class="card">
+                <img src="/assets/img-ofertas/slider-titicaca/titicaca3.jpg">
+                <h4>visitaremos </h4>
+                ..
+                <p>Las remotas islas de Taquila y Amantani mantiene muchas de sus acentrales tradiciones y culturas, y son reconocidas por sus exquisitas fábricas de tejido. </p>
+                ..
             </div>
-    </main>
+            
+            <div class="card">
+                <img src="/assets/img-ofertas/slider-titicaca/titicaca1.jpg">
+                <h4>indspensable</h4>
+                <p class=centrarestetexto>Indispensable
+
+                    Cámara fotográfica, ropa de invierno, efectivo, bloqueador solar, hidratante de labios.   </p>
+                
+            </div>
+            
+            <div class="card">
+                <img src="/assets/img-ofertas/slider-titicaca/titicaca2.jpg">
+                <h4>NOTAS</h4>
+                ..
+                <p class=centrarestetexto>
+                    Incluye:
+                    Transporte en bote
+                    Guía
+                    Boleto de entrada a las Islas Flotantes de Uros
+                    Boleto de entrada a la Isla Taquila
+                    Almuerzo en Taquile
+                    No Incluye:
+                    Paseo en el bote de totora “Kontiki” a las Islas de los Uros: S/.10 soles – esto es OPCIONAL pero los locales trataran de vendértelo.
+.
+            </div>
+        </div>
+    </section>
+</main>
 
     <footer class="footer">
-        <div class="limit footer__contenido">
-
-        <div class="footer_bloque m_enlaces">
-            <div class="footer_titulo">INFORMACION PARA TU VIAJE</div>
-            <ul>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://ytuqueplanes.com/imagenes/images/files/feriados_2021_peru.pdf">Lista de feriados 2021</a></li>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/senamhi">Clima y pronostico del tiempo</a></li>
-            <li><a class="footer_lista_enlace" target="_blank" href="https://www.gob.pe/sernanp">Areas Naturales Protegidas</a></li>
-            </ul>
-        </div>
-
-        <div class="footer_bloque m_botones">
-            <div class="footer_titulo">ASISTENCIA AL VIAJERO</div>
-            <div class="footer_wtsp"><a target="_blank" href="https://chat.whatsapp.com/FCiulIy1sC4JGdASOUDDW4"><img src="/assets/wtsp.png" alt="logo-wtsp"></a></div>
-        </div>
-
-        <div class="footer_bloque m_botones">
-            <div class="footer_titulo">RECIBE NUESTRAS NOVEDADES</div>
-            <a href="../suscribete.html" class="boton m--mediano m--235 m--morado"><strong>SUSCRIBIRME</strong></a>
-        </div>
-
-        <div class="footer_bloque m_redes">
-            <div class="footer_titulo">SIGUENOS</div>
-            <div class="footer_redes">
-            <div class="footer_logo"><img src="/assets/instagram-logo.png" alt="logoinsta"></div>
-            <div class="footer_logo"><img src="/assets/logo-twiter.jpg" alt="logotwiter"></div>
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Informacion para tu viaje</h4>
+                    <ul>
+                        <li><a target="_blank" href="https://www.gob.pe/feriados">Lista de feriados 2021</a></li>
+                        <li><a target="_blank" href="https://www.gob.pe/senamhi">Clima y pronostico del tiempo</a></li>
+                        <li><a target="_blank" href="https://www.gob.pe/sernanp">Areas Naturales Protegidas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Asistencia al viajero</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suscríbete</h4>
+                    <ul>
+                        <li><a href="/suscribete.html">Suscripción</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Quienes Somos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    </footer>
+   </footer>
+
+</div>
 </body>
 </html>

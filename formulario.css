@@ -1,5 +1,8 @@
-body{
-	background-color: #365FB3;
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    left: 0;
 }
 .container-form{
 	max-width: 500px;
@@ -44,26 +47,35 @@ body{
 
 /* SLIDER */
 .slide-contenedor{
+
     width: 350px;
     height: 350px;
+    width: 600px;
+    height: 800px;
     position: relative;
     overflow: hidden;
-    /* margin: auto; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    box-shadow: 1px 10px 15px rgba(0,0,0,.5);
 }
 
-/* .miSlider{
-    display: none;
-    transition: 2s;
-    max-height: 100vh;
-} */
+.miSlider{
+    transition: 2s all ease;
+    background: rgba(8, 110, 110, 0.685);
+} 
 
 .miSlider img{
     width: 100%;
-    max-height: 100vh;
-    height: inherit;
+    max-width: 600px;
+    height: 600px;
     object-fit: cover;
     vertical-align: top;
-    transition: 2s;
+    transition: 2s all ease;
+    object-fit: cover;
+    top: 0;
+    background: rgb(0, 0, 0);
 }
 
 .direcciones{
@@ -75,18 +87,18 @@ body{
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    background: transparent;
 }
 
-.direcciones a{
+.direcciones .atras,
+.direcciones .siguiente
+{
     color: #fff;
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-}
-
-.direcciones a:hover{
-    background: rgba(0, 0, 0, .5);
-    transition: .5s;
+    cursor: pointer;
+    background: rgba(88, 88, 88, 0.21);
 }
 
 .barras{
@@ -101,11 +113,11 @@ body{
 .barra{
     cursor: pointer;
     height:2px;
-    width: 25px;
+    width: 45px;
     margin: 0 2px;
     background: #dcdde1;
     display: inline-block;
-    margin-left: 3px;
+    margin-left: 0px;
 }
 
 .active{
@@ -120,4 +132,13 @@ body{
 @keyframes fade {
     from {opacity: .4;}
     to{opacity:1;}
+}
+.texto-slider{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 22px;
+}
+
+body.dark .slide-contenedor{
+    box-shadow: 1px 10px 15px rgba(255, 255, 255, 0.568);
 }

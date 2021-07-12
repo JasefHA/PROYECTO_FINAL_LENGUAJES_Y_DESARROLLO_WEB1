@@ -33,13 +33,6 @@
     justify-content: center;
     margin: auto;
 }
-    .cabeza{
-    margin-top: 0px;
-    font-size: 2.5rem;
-    text-align: center;
-    color: black;
-    
-}
     .parrafo{
         max-width: 100%;
         text-align: center;
@@ -69,16 +62,14 @@
     align-content:center;
 }
 
-    .title{
+.cabeza{
     text-align: center;
     font-size: 40px;
-    color: rgb(72, 70, 70);
+    color: black;
     margin-top: 100px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
-
-
     .container-platos{
     width: 100%;
     max-width: 1200px;
@@ -133,13 +124,16 @@
     width: 100%;
     height: 100%;
     background-color:gainsboro;
-    background-size: cover;
     background-position: center;
     transition: all 0.1s ease-in-out;
     background-image: url(../assets/img-destinos/ayacucho/ayacucho.jpg);
     animation: banner 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banerlima{
     position: relative;
@@ -153,6 +147,10 @@
     animation: bannerlima 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banertumbes{
     position: relative;
@@ -166,6 +164,10 @@
     animation: bannertumbes 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banerica{
     position: relative;
@@ -179,6 +181,10 @@
     animation: bannerica 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banerarequipa{
     position: relative;
@@ -192,6 +198,10 @@
     animation: bannerarequipa 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banercajamarca{
     position: relative;
@@ -205,6 +215,10 @@
     animation: bannercajamarca 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banercusco{
     position: relative;
@@ -218,6 +232,10 @@
     animation: bannercusco 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banerhuancavelica{
     position: relative;
@@ -231,6 +249,10 @@
     animation: bannerhuancavelica 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .baneramazonas{
     position: relative;
@@ -244,6 +266,10 @@
     animation: banneramazonas 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banerucayali{
     position: relative;
@@ -257,6 +283,10 @@
     animation: bannerucayali 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banertarapoto{
     position: relative;
@@ -270,6 +300,10 @@
     animation: bannertarapoto 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 .banerloreto{
     position: relative;
@@ -283,6 +317,10 @@
     animation: bannerloreto 20s infinite linear;
     padding-top: 0rem;
     padding-bottom: 1000px;
+    margin: 0 auto;
+    left: 0;
+    max-width: 1800px;
+    background-size: cover;
 }
 @keyframes bannerloreto{
     0%{
@@ -728,8 +766,21 @@
         background-size: cover;
     }
 }
-.bloque3dark{
+.contenedor2{
+    width:100%;
+    background-color: transparent;
+    align-items: center;
+    max-width: 1200px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+}
+.bodydark{
     background-color: rgb(47, 47, 47);
+}
+.bloque3dark{
+    background-color: transparent;
     align-items: center;
     width: 100%;
     height: auto;
@@ -737,20 +788,15 @@
     padding-bottom: 10rem;
     background-size: cover;
 }
-.titledark{
+.cabezadark{
     text-align: center;
     font-size: 40px;
     color: white;
     margin-top: 100px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
-}
-.cabezadark{
-    margin-top: 0px;
-    font-size: 2.5rem;
-    text-align: center;
-    color: white;
-}
+}  
+
 .parrafodark{
     max-width: 100%;
         text-align: center;
@@ -783,12 +829,9 @@ button:hover{
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    left: 0;
-    
-    
-     
+    left: 0;  
 }
-.palanca{
+.switch{
     background: #343D5B;
     border-radius: 1000px;
     border: none;
@@ -797,7 +840,7 @@ button:hover{
     display: flex;
     outline: none;
 }
-.palanca span {
+.switch span {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -805,11 +848,11 @@ button:hover{
     background: none;
     color: #fff;
 }
-.palanca::after{
+.switch::after{
     content: "";
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 52px;
     position: absolute;
     background: #f1f1f1;
     top: 0;
@@ -819,11 +862,11 @@ button:hover{
     transition: .3s ease all;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.219);
 }
-.palanca.active{
+.switch.active{
     background: orange;
     color: #000;
 }
-.palanca.active::after{
+.switch.active::after{
     right: 0;
     left: unset;
 }

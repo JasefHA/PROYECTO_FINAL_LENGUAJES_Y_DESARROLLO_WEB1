@@ -62,7 +62,7 @@
     align-content:center;
 }
 
-.titulo{
+.cabeza{
     text-align: center;
     font-size: 40px;
     color: black;
@@ -70,9 +70,6 @@
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
     .container-platos{
     width: 100%;
     max-width: 1200px;
@@ -791,20 +788,15 @@
     padding-bottom: 10rem;
     background-size: cover;
 }
-.titulodark{
+.cabezadark{
     text-align: center;
     font-size: 40px;
     color: white;
     margin-top: 100px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
-}
-.cabezadark{
-    margin-top: 0px;
-    font-size: 2.5rem;
-    text-align: center;
-    color: white;
-}
+}  
+
 .parrafodark{
     max-width: 100%;
         text-align: center;

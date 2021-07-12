@@ -1,6 +1,6 @@
 *{
     margin:0;
-    padding: 0;
+    padding: 0  ;
     box-sizing: border-box;
 }
 html{
@@ -455,63 +455,64 @@ body.dark .card-poster{
 /*COOKIES*/
 .aviso-cookies{
     display: none;
-    background: rgb(180, 179, 179);
+    background: rgb(255, 255, 255);
     padding: 20px;
     width: calc(100%-40px);
     max-width: 300px;
     line-height: 150%;
     border-radius: 10px;
     position: fixed;
+    left: 30px;
     bottom: 20px;
-    left: 20px;
     z-index: 100;
     padding-top: 60px;
-    box-shadow: 5px 5px 20px 10px rgba(184, 177, 177, 0.25);
+    box-shadow: 2px 4px 15px 12px rgba(209, 221, 226, 0.75);
     text-align: center;
 }
-.aviso-cookies .activo{
+.aviso-cookies.activo{
     display: block;
 }
-.aviso-cookies .cookie{
+
+.aviso-cookies .galleta{
     max-width: 100px;
     position: absolute;
-    top:-50px;
+    top: -50px;
     left: 35%;
 }
-
-.aviso-cookies .titulo,
-.aviso-cookies .parrafo{
+.aviso-cookies .titulo-cookie,
+.aviso-cookies .parrafo-cookie
+{
     margin-bottom: 15px;
 }
-
-.aviso-cookies .boton-cookie{
+.aviso-cookies .cookie-boton{
     width: 100%;
+    background: rgba(30, 69, 141, 0.767);
     border: none;
-    background: #f1f1f1;
-    color:black;
-    font-family: 'Lato',sans-serif;
+    color: floralwhite;
+    border-radius: 5px;
     text-align: center;
     padding: 15px 20px;
     font-weight: 700;
     cursor: pointer;
     transition: .3s ease all;
-    border-radius: 6px;
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 14px;
 }
-
-.aviso-cookies .boton-cookie:hover{
-    background-color: rgba(47, 47, 47, 0.918);
-    color: rgba(209, 209, 209, 0.918);
+.aviso-cookies .cookie-boton:hover{
+    background: rgba(19, 25, 37, 0.767);
+    color: rgb(255, 255, 255);
 }
 .aviso-cookies .enlace{
-    color: #006097;
     text-decoration: none;
-    font-size: 15px;
+    color: rgb(42, 103, 131);
+    font-size: 14px;
+}
+.aviso-cookies .enlace:hover{
+    text-decoration: underline;
 }
 .fondo-aviso-cookies{
     display: none;
-    background: rgba(0, 0, 0, 0.575);
+    background: rgba(0, 0, 0, 0.219);
     position: fixed;
     z-index: 99;
     width: 100vw;
@@ -519,14 +520,6 @@ body.dark .card-poster{
     top: 0;
     left: 0;
 }
-
-.fondo-aviso-cookies .activo{
+.fondo-aviso-cookies.activo{
     display: block;
-    background: rgba(0, 0, 0, 0.575);
-    position: fixed;
-    z-index: 99;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
 }

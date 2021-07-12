@@ -452,6 +452,9 @@ body.dark video{
 body.dark .card-poster{
     box-shadow: 1px 05px 15px rgba(170, 170, 170, 0.5);
 }
+body.dark .bloque3{
+    background: #131416; 
+}
 /*COOKIES*/
 .aviso-cookies{
     display: none;

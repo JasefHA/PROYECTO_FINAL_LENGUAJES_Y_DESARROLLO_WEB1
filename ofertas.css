@@ -161,13 +161,13 @@ h2{text-align: center;}
 }
 .parrafo{
     max-width: 1000px;
-    text-align: center;
+    text-align:justify;
     margin: auto;
     margin-top: 40px;
     color: #fff;
-    font-size: 22px;
-    opacity: 1;
-    text-shadow: -1px 0 rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    font-size: 18px;
+    
+    
 }
 
 .container-slider{
@@ -233,5 +233,8 @@ justify-content: center;
 }
 .centrarestetexto{
 text-align: justify;
-text-align: left;
+
+}
+body.dark.cabeza{
+    background: cyan;
 }
